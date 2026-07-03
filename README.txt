@@ -1,37 +1,18 @@
-GARGAMEL SHOP SITE v3
+GARGAMEL SHOP SITE v4
 
-Что внутри:
-- index.html — главная страница / приветствие.
-- catalog.html — страница товаров.
-- assets/style.css — дизайн.
-- assets/script.js — фильтры и переключение фото в карточках.
-- assets/img/ — фотографии.
+Обновления v4:
+- добавлена Яндекс Метрика, счетчик 110367594;
+- добавлены цели Метрики: click_bot, click_owner, click_catalog, click_product, filter_all/filter_jeans/filter_hoodie/filter_vest;
+- добавлены SEO title/description;
+- добавлены Open Graph теги для красивой карточки ссылки в Telegram;
+- добавлены robots.txt и sitemap.xml;
+- добавлен .nojekyll для GitHub Pages;
+- исправлен контраст кнопки бота в нижнем блоке;
+- у изображений добавлен loading=lazy для ускорения загрузки.
 
-Контакты уже вставлены:
-- Бот: @GargamelShopBot
-- Владелец: @ogrmag993
-
-Как проверить на компьютере:
+Загрузка на GitHub:
 1. Распаковать архив.
-2. Открыть index.html двойным кликом.
-3. Перейти в каталог через кнопку «Смотреть каталог».
-
-Как выложить бесплатно через GitHub Pages:
-1. Создать аккаунт GitHub, если его нет.
-2. Создать новый public-репозиторий, например gargamel-shop.
-3. Загрузить все файлы из папки сайта: index.html, catalog.html, assets.
-4. Открыть Settings → Pages.
-5. В Source выбрать Deploy from a branch.
-6. Branch: main, folder: /root.
-7. Сохранить.
-8. Через пару минут сайт будет доступен по ссылке вида:
-   https://ВАШ-ЛОГИН.github.io/gargamel-shop/
-
-После публикации:
-- ссылку сайта вставить в config.env бота в строку CATALOG_URL=
-- перезапустить бота.
-
-Что нужно будет добавить позже:
-- реальные цены вместо «Цена: в Telegram»;
-- если товар продан — удалить карточку или заменить статус;
-- новые товары добавляются в catalog.html по примеру существующих карточек.
+2. В репозитории gargamel-shop нажать Add file → Upload files.
+3. Перетащить содержимое папки gargamel_shop_site_v4: index.html, catalog.html, robots.txt, sitemap.xml, .nojekyll, README.txt, папку assets.
+4. Нажать Commit changes.
+5. Проверить сайт: https://45proekt-ctrl.github.io/gargamel-shop/
