@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Каталог — Gargamel Shop</title>
+  <meta name="description" content="Каталог Gargamel Shop: худи, джинсы, жилеты и streetwear-позиции." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html"><span class="brand-mark">G</span> Gargamel Shop</a>
+    <nav class="nav">
+      <a href="index.html">Главная</a>
+      <a href="catalog.html">Каталог</a>
+      <a href="https://t.me/GargamelShopBot" target="_blank" rel="noopener">Бот</a>
+      <a href="https://t.me/ogrmag993" target="_blank" rel="noopener">Владелец</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="catalog-head section-pad">
+      <div>
+        <div class="eyebrow">Gargamel drop</div>
+        <h1>Каталог</h1>
+        <p>Выбирай категорию, размер и пиши в Telegram. Цены и наличие уточняются перед покупкой.</p>
+      </div>
+      <a class="btn primary" href="https://t.me/GargamelShopBot" target="_blank" rel="noopener">Подобрать в боте</a>
+    </section>
+
+    <section class="filters" aria-label="Фильтр товаров">
+      <button class="filter active" data-filter="all">Все</button>
+      <button class="filter" data-filter="jeans">Джинсы</button>
+      <button class="filter" data-filter="hoodie">Худи</button>
+      <button class="filter" data-filter="vest">Жилеты</button>
+    </section>
+
+    <section class="products section-pad small-pad" id="products">
+      <article class="product-card" data-category="jeans">
+        <div class="product-gallery">
+          <img class="main-img" src="assets/img/freesoul-1.jpg" alt="Джинсы FREESOUL" />
+          <div class="thumbs">
+            <button><img src="assets/img/freesoul-1.jpg" alt="Джинсы FREESOUL спереди"></button>
+            <button><img src="assets/img/freesoul-2.jpg" alt="Джинсы FREESOUL сзади"></button>
+            <button><img src="assets/img/freesoul-3.jpg" alt="Лейбл FREESOUL"></button>
+          </div>
+        </div>
+        <div class="product-info">
+          <span class="product-category">Джинсы</span>
+          <h2>Джинсы FREESOUL</h2>
+          <p>Темный деним, аккуратная посадка, размер 46 / S.</p>
+          <div class="meta"><span>Размер: 46 / S</span><span>Цена: в Telegram</span><span>Статус: уточнить наличие</span></div>
+          <a class="btn primary full" href="https://t.me/ogrmag993" target="_blank" rel="noopener">Спросить про товар</a>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="hoodie">
+        <div class="product-gallery">
+          <img class="main-img" src="assets/img/gray-hoodie-1.jpg" alt="Серое худи Stone Island" />
+          <div class="thumbs">
+            <button><img src="assets/img/gray-hoodie-1.jpg" alt="Серое худи"></button>
+            <button><img src="assets/img/gray-hoodie-2.jpg" alt="Бирка худи"></button>
+            <button><img src="assets/img/gray-hoodie-3.jpg" alt="Патч худи"></button>
+          </div>
+        </div>
+        <div class="product-info">
+          <span class="product-category">Худи</span>
+          <h2>Худи Stone Island</h2>
+          <p>Серое худи с патчем на рукаве. Размер XL.</p>
+          <div class="meta"><span>Размер: XL</span><span>Цена: в Telegram</span><span>Статус: уточнить наличие</span></div>
+          <a class="btn primary full" href="https://t.me/ogrmag993" target="_blank" rel="noopener">Спросить про товар</a>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="hoodie">
+        <div class="product-gallery">
+          <img class="main-img" src="assets/img/yellow-hoodie-1.jpg" alt="Желтое худи Stone Island x Supreme" />
+          <div class="thumbs">
+            <button><img src="assets/img/yellow-hoodie-1.jpg" alt="Желтое худи"></button>
+            <button><img src="assets/img/yellow-hoodie-2.jpg" alt="Патч худи"></button>
+            <button><img src="assets/img/yellow-hoodie-3.jpg" alt="Бирка худи"></button>
+          </div>
+        </div>
+        <div class="product-info">
+          <span class="product-category">Худи</span>
+          <h2>Худи Stone Island x Supreme</h2>
+          <p>Желтое худи с ярким streetwear-настроением. Размер M.</p>
+          <div class="meta"><span>Размер: M</span><span>Цена: в Telegram</span><span>Статус: уточнить наличие</span></div>
+          <a class="btn primary full" href="https://t.me/ogrmag993" target="_blank" rel="noopener">Спросить про товар</a>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="vest">
+        <div class="product-gallery">
+          <img class="main-img" src="assets/img/vest-1.jpg" alt="Оранжевый джинсовый жилет Ro.Ro" />
+          <div class="thumbs">
+            <button><img src="assets/img/vest-1.jpg" alt="Жилет спереди"></button>
+            <button><img src="assets/img/vest-2.jpg" alt="Жилет сзади"></button>
+            <button><img src="assets/img/vest-3.jpg" alt="Бирка жилета"></button>
+          </div>
+        </div>
+        <div class="product-info">
+          <span class="product-category">Жилет</span>
+          <h2>Оранжевый джинсовый жилет Ro.Ro</h2>
+          <p>Яркий жилет с потертостями и рваной обработкой. Размер L.</p>
+          <div class="meta"><span>Размер: L</span><span>Цена: в Telegram</span><span>Статус: уточнить наличие</span></div>
+          <a class="btn primary full" href="https://t.me/ogrmag993" target="_blank" rel="noopener">Спросить про товар</a>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="jeans">
+        <div class="product-gallery">
+          <img class="main-img" src="assets/img/pagalee-1.jpg" alt="Джинсы Pagalee" />
+          <div class="thumbs">
+            <button><img src="assets/img/pagalee-1.jpg" alt="Джинсы Pagalee спереди"></button>
+            <button><img src="assets/img/pagalee-2.jpg" alt="Джинсы Pagalee сзади"></button>
+            <button><img src="assets/img/pagalee-3.jpg" alt="Карман Pagalee"></button>
+          </div>
+        </div>
+        <div class="product-info">
+          <span class="product-category">Джинсы</span>
+          <h2>Джинсы Pagalee / PG</h2>
+          <p>Светло-серый деним, размер 48 / M.</p>
+          <div class="meta"><span>Размер: 48 / M</span><span>Цена: в Telegram</span><span>Статус: уточнить наличие</span></div>
+          <a class="btn primary full" href="https://t.me/ogrmag993" target="_blank" rel="noopener">Спросить про товар</a>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© Gargamel Shop</p>
+    <p>Бот: <a href="https://t.me/GargamelShopBot" target="_blank" rel="noopener">@GargamelShopBot</a> · Владелец: <a href="https://t.me/ogrmag993" target="_blank" rel="noopener">@ogrmag993</a></p>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
